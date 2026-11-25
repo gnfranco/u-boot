@@ -56,7 +56,7 @@ static void reg_set_field(void *reg, u32 mask, u32 val)
 #define MSPI_CAL_END                      BIT(8)
 #define MSPI_CAL_STOP                     BIT(9)
 #define HP_SYS_CLKRST_MODEM_CLK_EN        BIT(0)
-#define MODEM_LPCON_CLK_I2C_MST_EN        BIT(2)
+#define MODEM_LPCON_CLK_I2C_MST_EN        BIT(0)
 #define MODEM_LPCON_CLK_I2C_MST_FO        BIT(2)
 #define MODEM_SYSCON_CLK_I2C_MST_SEL_160M BIT(12)
 
